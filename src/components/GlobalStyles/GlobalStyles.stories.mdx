@@ -1,0 +1,17 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Components/GlobalStyles" />
+
+# GlobalStyles
+
+This component is to be used Globally in your project. It is commonly used in the entry point.
+
+```js
+/* Basic usage example */
+<React.Fragment>
+  <GlobalStyles />
+  <Routes />
+</React.Fragment>
+```
+
+In this file, we define which fonts we use in the project and default HTML tags settings. And we export as a createGlobalStyle from styled-components. Some settings are based on [**this file**](https://github.com/gatsbyjs/gatsby-starter-default/blob/d78df634d5c5b2f178ce9545b62dfa87e7662e22/src/components/layout.css).
